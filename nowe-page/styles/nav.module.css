@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 2rem;
+ 
+}
+
+.navItems a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: bold;
+    transition: all .1s ease-in-out;
+}
+
+
+.navItems a:hover {
+    color: #4179d2;
+   
+}
+
+.weonBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: bold;
+    transition: all .1s ease-in-out;
+    font-size: 14px;
+    margin-right: 2rem;
+    border: none;
+}
+
+.weonBtn:hover {
+    background-color: #4179d2;
+    color: rgb(255, 255, 255);
+}

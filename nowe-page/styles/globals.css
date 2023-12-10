@@ -1,0 +1,42 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: regular;
+  src: url(../public/Font/Geist-Regular.otf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../public/Font/Geist-SemiBold.otf);
+}
+
+@font-face {
+  font-family: extrabold;
+  src: url(../public/Font/Geist-UltraBlack.otf);
+}
