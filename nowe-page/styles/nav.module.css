@@ -5,6 +5,13 @@
     background-color: #000000;
     color: white;
     padding: 2rem;
+    border: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
  
 }
 
@@ -19,7 +26,7 @@
 
 
 .navItems a:hover {
-    color: #4179d2;
+    color: #0063da; 
    
 }
 
@@ -34,9 +41,22 @@
     font-size: 14px;
     margin-right: 2rem;
     border: none;
+    text-decoration: none;
 }
 
 .weonBtn:hover {
-    background-color: #4179d2;
+    background-color:#0063da; 
     color: rgb(255, 255, 255);
 }
+
+@media (max-width: 480px) {
+    
+    .navItems a {
+        margin-right: 0rem;
+        margin-left: 1rem;
+    }
+    
+    .weonBtn {
+        margin-right: 0rem;
+    }
+  }
