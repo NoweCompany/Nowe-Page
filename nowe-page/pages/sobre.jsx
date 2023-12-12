@@ -1,4 +1,4 @@
-import Nav from './components/nav'
+import Nav from '../pages/components/Nav'
 
 export default function sobre(){
     return (
