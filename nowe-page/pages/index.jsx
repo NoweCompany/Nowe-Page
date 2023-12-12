@@ -1,5 +1,5 @@
 import index from "../styles/index.module.css"
-import Nav from './components/Nav'
+import Nav from '../pages/components/Nav'
 import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
