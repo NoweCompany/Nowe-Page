@@ -14,25 +14,25 @@
 } 
 
 
- .logo {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-  margin: auto 50px;
-  margin-bottom: 30px;
- }
- 
- .mainContent {
-  position: absolute; 
-  top: 50%; 
-  left: 0; 
-  width: 100%;
-  transform: translateY(-50%);
- }
+.logo {
+ max-width: 600px;
+ width: 100%;
+ height: auto;
+ margin: auto 50px;
+ margin-bottom: 30px;
+}
+
+.cube {
+ max-width: 900px;
+ width: 200%;
+ height: auto;
+ display: block;
+
+}
 
 
 .contentlogo{
-  margin-left: 10rem;
+  margin: 6rem auto;
 }
 
 .destaque {
@@ -48,6 +48,18 @@
   margin-bottom: 30px;
  }
 
+
+
+.borderTelas{
+  border:  1px solid #bcbcbc;
+  border-radius: 30px;
+  width: 95%;
+  height: 40rem;
+  margin: 1rem auto;
+  overflow: hidden;
+  
+}
+
  .buttonconhecamais{
   padding: 10px;
   border-radius: 50px;
@@ -60,6 +72,9 @@
   transition: all 0.1s ease-in-out;
   width: 150px;
   margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  }
 
  
@@ -69,39 +84,67 @@
  
  }
 
+ 
+.icon ion-icon {
+  font-size: 40px; 
+  color: white;
+  transition: all .1s ease-in-out;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.icon ion-icon:hover {
+  font-size: 40px; 
+  color: #0063da;
+}  
+
+.containerBtn{
+  display: flex; 
+  align-items: center; 
+}
+
+.buttonconhecamais {
+  margin-right: 2rem; 
+}
+
 /* media querty */
 
 @media (max-width: 480px) {
 
   .logo {
-    margin-top: -150px;
     position: absolute;
-    z-index: 2;
-    width: 80%; 
-    
-  }
+    width: 80%;     
+  }  
    
   .subtitle{
     color: white;
     font-family: bold;
     font-size: 50px;
-   }
+   } 
 
-   .contentlogo{
-    margin-left: 0rem;
-  }
-}
+
+  .cube {
+    display: none;
+   } 
+
+}   
+
 
 
 @media (max-width: 600px) {
 
   .logo {
-    margin-top: -90px;
-    position: absolute;
-    z-index: 2;
-    width: 80%; 
+    margin-top: -100px;
+    width: 75%; 
   }
+
+  .cube {
+    display: none;
    
+   }
+
   .subtitle{
     color: white;
     font-family: bold;
@@ -112,7 +155,32 @@
    .contentlogo{
     margin-left: 0rem;
   }
+
+
 }
+
+
+@media (max-width: 700px) {
+
+  .logo {
+    margin-top: -100px;
+    width: 70%; 
+  }
+
+  .cube {
+    display: none;
+   
+   }
+
+  .subtitle{
+    color: white;
+    font-family: bold;
+    font-size: 30px;
+    margin: 3rem;
+   }
+
+}
+
 
 @media (max-width: 1200px) {
 
