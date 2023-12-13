@@ -1,0 +1,16 @@
+version: '3'
+services:
+  landing-page-nowe:
+    build: .
+    container_name: landin-page-nowe
+    volumes:
+      - .:/home/landinPage
+    ports:
+      - 3310:3000
+    command: npm start
+    restart: always
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
