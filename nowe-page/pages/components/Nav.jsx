@@ -13,9 +13,6 @@ export default function Nav(){
             <div className={navstyle.navButton}>
                     <Link className={navstyle.weonBtn} href='https://nowecompany.com.br/weon/' target="_blank" rel="noopener noreferrer">weon</Link>
                 </div>
-
-
-
                 
         </nav>
         </>

@@ -1,4 +1,4 @@
-import style from '../../../styles/HomeSection01.module.css'
+import style from '../../../styles/HomeSectionUm.module.css'
 export default function Page(){
     return (
         <>
