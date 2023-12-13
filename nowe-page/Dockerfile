@@ -1,7 +1,7 @@
 FROM node:18-alpine
 ENV NODE_ENV=production
 
-WORKDIR /home/landinPage
+WORKDIR /home/landingPage
 
 COPY ["package-lock.json", "package.json", "./"]
 
