@@ -1,6 +1,6 @@
 import index from "../styles/index.module.css"
 import Nav from '../pages/components/Nav'
-import Page from './components/home/Section2'
+import Page from '../pages/components/home/Section2'
 import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
