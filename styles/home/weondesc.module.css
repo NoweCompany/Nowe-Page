@@ -86,5 +86,112 @@
   }
     
   
+  @media (max-width: 900px){
+    .borderTelas{
+      width: 95%;
+      height: 55rem;
+      margin: 1rem auto;
+    }
 
+    .title{
+      font-size: 140px;
+      letter-spacing: -20px;
+      margin-left: 10rem;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .dot{
+      font-family: sfpro;
+      margin-left: -10px;
+    }
+
+  }
   
+  @media (max-width: 900px){
+    .borderTelas{
+      width: 95%;
+      height: 55rem;
+      margin: 1rem auto;
+    }
+
+    .title{
+      font-size: 140px;
+      letter-spacing: -20px;
+      margin-left: 10rem;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .dot{
+      font-family: sfpro;
+      margin-left: -10px;
+    }
+
+  }
+  
+  @media (max-width: 900px){
+    .borderTelas{
+      width: 95%;
+      height: 55rem;
+      margin: 1rem auto;
+    }
+
+    .title{
+      font-size: 140px;
+      letter-spacing: -20px;
+      margin-left: 10rem;
+      padding: 1rem;
+      margin-bottom: 2rem;
+    }
+    
+    .dot{
+      font-family: sfpro;
+      margin-left: -10px;
+    }
+
+  }
+  
+  
+  @media (max-width: 375px){
+    .borderTelas{
+      width: 95%;
+      height: 70rem;
+      margin: 1rem auto;
+    }
+
+    .title{
+      font-size: 120px;
+      letter-spacing: -13px;
+      padding: 2rem;
+      margin: 1rem auto;
+    }
+    
+    .dot{
+      font-family: sfpro;
+      margin-left: -10px;
+    }
+
+  }
+
+ 
+  @media (max-width: 896px){
+    .borderTelas{
+      width: 95%;
+      height: 70rem;
+      margin: 1rem auto;
+    }
+
+    .title{
+      font-size: 120px;
+      letter-spacing: -13px;
+      padding: 2rem;
+      margin: 1rem auto;
+    }
+    
+    .dot{
+      font-family: sfpro;
+      margin-left: -10px;
+    }
+
+  }

@@ -71,4 +71,18 @@
     .card{
         margin-top: 10px;
     }
+
+    .linha{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #6f6f6f;
+        margin: 0 auto;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
 }
+
+
+

@@ -52,7 +52,6 @@
     margin: 5rem auto;
     overflow: hidden;
 
-    
   }
   
   
@@ -71,7 +70,7 @@
      .descricao{
       font-family: bold;
       letter-spacing: -6px;
-      margin-top: 35px;
+      margin-top: 30px;
       margin-left: 13px;
      }
     
@@ -132,3 +131,179 @@
   }
   
   }
+
+  
+  @media (max-width: 1300px) {
+
+    .um{
+      color: #000000;
+      font-size: 70px;
+     }
+    
+     .dois{
+      color: #3a3a3a;
+      font-size: 70px;
+      margin-top: -30px;
+    
+     }
+    
+     .tres{
+      color: #737373;
+      font-size: 70px;
+      margin-top: -30px;
+    
+     }
+    
+     .quatro{
+      color: #b1b1b1;
+      font-size: 70px;
+      margin-top: -30px;
+  }
+
+    .telas{
+      max-width: 900px;
+      width: 150%;
+      height: auto;
+      margin-left: -100px;
+    
+    }
+
+  }
+
+  
+  
+  @media (max-width: 950px) {
+  
+    .um{
+      color: #000;
+      font-size: 60px;
+     }
+    
+     .dois{
+      color: #3a3a3a;
+      font-size: 60px;
+      margin-top: -30px;
+    
+     }
+    
+     .tres{
+      color: #737373;
+      font-size: 60px;
+      margin-top: -30px;
+    
+     }
+    
+     .quatro{
+      color: #b1b1b1;
+      font-size: 60px;
+      margin-top: -30px;
+     }
+
+    .borderTelas{
+      border:  1px solid #bcbcbc;
+      border-radius: 30px;
+      width: 95%;
+      height: 40rem;
+      margin: 5rem auto;
+      overflow: hidden;
+    }
+
+    .telas{
+      max-width: 900px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  
+
+   
+  @media (max-width: 375px) {
+  
+    .um{
+      color: #000;
+      font-size: 50px;
+     }
+    
+     .dois{
+      color: #3a3a3a;
+      font-size: 50px;
+      margin-top: -30px;
+    
+     }
+    
+     .tres{
+      color: #737373;
+      font-size: 50px;
+      margin-top: -30px;
+    
+     }
+    
+     .quatro{
+      color: #b1b1b1;
+      font-size: 50px;
+      margin-top: -30px;
+     }
+
+    .borderTelas{
+      border:  1px solid #bcbcbc;
+      border-radius: 30px;
+      width: 95%;
+      height: 30rem;
+      margin: 5rem auto;
+      overflow: hidden;
+    }
+
+    .telas{
+      max-width: 900px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  
+  
+  @media (max-width: 896px) {
+  
+    .um{
+      color: #000;
+      font-size: 50px;
+     }
+    
+     .dois{
+      color: #3a3a3a;
+      font-size: 50px;
+      margin-top: -30px;
+    
+     }
+    
+     .tres{
+      color: #737373;
+      font-size: 50px;
+      margin-top: -30px;
+    
+     }
+    
+     .quatro{
+      color: #b1b1b1;
+      font-size: 50px;
+      margin-top: -30px;
+     }
+
+    .borderTelas{
+      border:  1px solid #bcbcbc;
+      border-radius: 30px;
+      width: 95%;
+      height: 30rem;
+      margin: 5rem auto;
+      overflow: hidden;
+    }
+
+    .telas{
+      max-width: 900px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+  
