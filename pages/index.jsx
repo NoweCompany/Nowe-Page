@@ -4,6 +4,7 @@ import Nav from '../pages/components/Nav'
 import Section1 from '../pages/components/home/Section1'
 import Page from '../pages/components/home/Section2'
 import Section3 from '../pages/components/home/Section3'
+import Section4 from '../pages/components/home/Section4'
 
 
 
@@ -21,7 +22,7 @@ export default function Home() {
     </section>
     
     <Section3 />
-
+    <Section4 />
     </>
   )
 }
