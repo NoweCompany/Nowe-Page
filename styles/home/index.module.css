@@ -5,7 +5,7 @@
 }
 
  .backgroundContainer {
-  background-image: url('../public/Img/outlines.png');
+  background-image: url('../../public/Img/outlines.png');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -75,6 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
  }
 
  

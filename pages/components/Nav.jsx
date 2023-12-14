@@ -1,4 +1,4 @@
-import navstyle from '../../styles/nav.module.css'
+import navstyle from '../../styles/global/nav.module.css'
 import Link from 'next/link'
 
 export default function Nav(){

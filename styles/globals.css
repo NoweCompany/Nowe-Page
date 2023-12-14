@@ -28,7 +28,7 @@ a {
 
 @font-face {
   font-family: regular;
-  src: url(../public/Font/Geist-Regular.otf);
+  src: url(../public/Font/Geist-Medium.otf);
 }
 
 @font-face {
@@ -39,4 +39,9 @@ a {
 @font-face {
   font-family: extrabold;
   src: url(../public/Font/Geist-UltraBlack.otf);
+}
+
+@font-face {
+  font-family: sfpro;
+  src: url(../public/Font/SF-Pro-Display-Semibold.otf);
 }

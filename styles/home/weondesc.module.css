@@ -1,0 +1,90 @@
+.borderTelas{
+    border:  1px solid #bcbcbc;
+    border-radius: 30px;
+    width: 95%;
+    height: 45rem;
+    margin: 3rem auto;
+    overflow: hidden;
+    
+  }
+
+  .title{
+    font-family: bold;
+    color:#000;
+    font-size: 200px;
+    letter-spacing: -25px;
+    margin-left: 3.3rem;
+    padding: 1rem;
+  }
+/* 
+  .subtitle{
+    color: black;
+    font-family: regular;
+    text-align: justify;
+    width: 60%;
+    margin-left: 6rem;
+    margin-top: -60px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    
+  }
+   */
+  .subtitle{
+    color: black;
+    font-family: regular;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -60px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+  }
+
+  .dot{
+    font-family: sfpro;
+    margin-left: -20px;
+  }
+
+  .destaque {
+    color: #0063da; 
+   }
+  
+
+  /* mediaquerty */
+
+  @media (max-width: 600px){
+    .borderTelas{
+        width: 95%;
+        height: 70rem;
+        margin: 1rem auto;
+      }
+
+      .title{
+        font-family: bold;
+        color:#000;
+        font-size: 140px;
+        letter-spacing: -20px;
+        margin-left: 0rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .dot{
+        font-family: sfpro;
+        margin-left: -10px;
+      }
+
+      .subtitle{
+        color: black;
+        font-family: regular;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -60px;
+        letter-spacing: -1px;
+        line-height: 1.1;
+      }
+  }
+    
+  
+
+  
