@@ -1,5 +1,5 @@
 import Nav from '../pages/components/Nav'
-import Footer from '../pages/components/footer'
+import Footer from './components/Footer'
 export default function contato(){
    return (
     <>
