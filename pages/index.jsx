@@ -5,6 +5,8 @@ import Section1 from '../pages/components/home/Section1'
 import Page from '../pages/components/home/Section2'
 import Section3 from '../pages/components/home/Section3'
 import Section4 from '../pages/components/home/Section4'
+import Section5 from '../pages/components/home/Section5'
+import Footer from '../pages/components/footer'
 
 
 
@@ -23,6 +25,8 @@ export default function Home() {
     
     <Section3 />
     <Section4 />
+    <Section5 />
+    <Footer />
     </>
   )
 }

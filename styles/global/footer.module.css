@@ -1,0 +1,62 @@
+.footer{
+    background-color: black;
+    color: white;
+    font-family: regular;
+    padding: 30px;
+}   
+
+.nowe{
+    font-size: 50px;
+    font-family: bold;
+    letter-spacing: -3px; 
+    margin-left: -100px;  
+}
+
+.dot{
+    font-family: sfpro;
+}
+
+.frase{
+    font-family: bold;
+    font-size: 40px;
+    letter-spacing: -3px;
+}
+
+.title{
+    font-family: bold;
+    font-size: 30px;
+}
+
+.cube{
+    width: 100%;
+    max-width: 200px;
+    margin-left: -100px;  
+
+}
+
+.rede{
+    color: white;
+    transition: all .1s ease-in-out;
+}
+
+
+.rede:hover{
+    color: #0063da;
+    
+}
+
+@media (max-width: 600px){
+    .nowe{
+        font-size: 50px;
+        font-family: bold;
+        letter-spacing: -3px; 
+        margin-left: 0px;  
+    }
+
+    .cube{
+        width: 100%;
+        max-width: 200px;
+        margin-left: 0px;  
+    
+    }
+}
