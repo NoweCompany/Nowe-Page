@@ -6,13 +6,12 @@ export default function footer(){
 <footer className={style.footer}>
       <div className="container">
         <div className="row">
-          {/* Logotipo, imagem e descrição */}
+
           <div className="col-md-3 footer-column d-flex flex-column align-items-center">
             <h5 className={style.nowe}>nowe<span className={style.dot}>.</span></h5>
-            <img className={style.cube} src="/img/cube.png" alt="Cube" />
+            <img className={style.cube} src="./Img/cube.png" alt="Cube" />
           </div>
 
-          {/* Links de redes sociais */}
           <div className="col-md-4 footer-column">
             <h5 className={style.title}>Redes Sociais</h5>
             <ul className="list-unstyled">
@@ -21,7 +20,6 @@ export default function footer(){
             </ul>
           </div>
 
-          {/* Informações de contato */}
           <div className="col-md-4 footer-column">
             <h5 className={style.title}>Contato</h5>
             <ul className="list-unstyled">
@@ -33,7 +31,6 @@ export default function footer(){
             </ul>
           </div>
 
-          {/* Frase de efeito */}
           <div className="col-md-1 footer-column">
             <h5 className={style.frase}>the future is nowe.</h5>
           </div> 
