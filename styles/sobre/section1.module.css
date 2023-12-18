@@ -1,0 +1,137 @@
+.background{
+    background-color: black;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 1000px; 
+  }
+  
+   .backgroundContainer {
+    background-image: url('../../public/Img/atmosphere.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+  } 
+  
+
+  .backgroundsection {
+    background-image: url('../../public/Img/aurea2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 40vh; 
+    width: 100%; 
+  } 
+
+  .title{
+    color: white;
+    font-family: bold;
+    font-size: 160px;
+    letter-spacing: -10px;
+    width: 70%;
+    line-height: 0.9;
+
+
+  }
+
+  .subtitle{
+    color: #0063da; 
+    font-family: bold;
+    font-size: 160px;
+    letter-spacing: -10px;
+    margin-top: -30px;
+  }
+
+  .dot{
+    font-family: sfpro;
+  }
+
+  .cards{
+    background-color: black;
+    height: 1000px;
+  }
+
+  .cardText{
+    font-family: regular;
+    text-align: justify;
+    color: white;
+    padding: 50px;
+  }
+
+  .cardBody{
+    background-color: black;
+  }
+
+  .card{
+    border-radius: 10px;
+    border: solid 1px #2c2c2c;
+  }
+
+  .cardTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: bold;
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+
+  .line{
+    border: 1px solid #b1b1b1;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .cristal{
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+
+
+  @media (max-width: 600px) {
+
+    .title{
+        margin-top: 11rem;
+        color: white;
+        font-family: bold;
+        font-size: 90px;
+        letter-spacing: -10px;
+        width: 70%;
+        line-height: 0.9;
+      }
+
+      .subtitle{
+        color: #0063da; 
+        font-family: bold;
+        font-size: 90px;
+        letter-spacing: -10px;
+        margin-top: -30px;
+      }
+
+        .cristal{
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
+
+    
+        .cardText{
+            font-family: regular;
+            text-align: justify;
+            color: white;
+            padding: 30px;
+          }
+
+  }

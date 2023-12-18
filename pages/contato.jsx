@@ -4,7 +4,9 @@ export default function contato(){
    return (
     <>
     <Nav />
-    <h1>contato</h1>
+
+      
+    
     <Footer />
     </>
     )
