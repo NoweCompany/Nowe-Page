@@ -7,7 +7,6 @@ services:
       - .:/home/landingPage
     ports:
       - "${CONTAINER_PORT}:3000"
-    command: npm run dev
     restart: always
     networks:
       - mynetwork
