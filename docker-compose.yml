@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/home/landingPage
     ports:
-      - 3310:3000
+      - "${CONTAINER_PORT}:3000"
     command: npm run dev
     restart: always
     networks:
