@@ -2,7 +2,7 @@ version: '3'
 services:
   landing-page-nowe:
     build: .
-    container_name: landing-page-nowe
+    container_name: "${CONTAINER_NAME}"
     volumes:
       - .:/home/landingPage
     ports:
