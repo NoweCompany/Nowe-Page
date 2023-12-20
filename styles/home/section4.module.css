@@ -4,7 +4,7 @@
     color: #000;
     justify-content: center;
     display: flex;
-    margin-top: 7rem;
+    margin: 7rem auto;
     letter-spacing: -5px;
 }
 
@@ -21,41 +21,40 @@
 
 
 #cardbody{
-    background-color: #f1f1f1;
+    background-color: #000000;
     transition: all .1s ease-in-out;
     border-radius: 10px;
     padding: 5px;
-    border: solid 1px #b6b6b6
-}
-
-.icon{
-    color: rgb(18, 124, 181);
-}
-
-.titleCard{
-    color: rgb(0, 0, 0);
-    font-family: bold;
-}
-
-.descBody{
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    font-size: regular;
-}
-
-.lineCard{
-    color: black;
+    border: solid 3px #262626;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
 #cardbody:hover{
-    background-color: #dbdbdb;
+    background-color: #222222;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
 }
 
-.card{
-    padding: 10px;
-    
+.lineCard{
+    color: rgb(255, 255, 255);
+}
+
+.icon{
+    color: rgb(13, 136, 202);
+    padding: 5px;
+}
+
+.titleCard{
+    color: white;
+    font-family: bold;
+}
+
+.TextCard{
+    color: white;
+    padding: 15px;
 }
 
 @media (max-width: 600px) {
@@ -64,7 +63,6 @@
     }
 
     #cardbody{
-        background-color: #f1f1f1;
         transition: all .1s ease-in-out;
     }
 
@@ -77,7 +75,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid 1px #6f6f6f;
         margin: 0 auto;
         border-radius: 100px;
         margin-bottom: 10px;

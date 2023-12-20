@@ -1,134 +1,95 @@
-import style from '../../../styles/home/section4.module.css'
-export default function Card(){
+import style from '../../../styles/home/section4.module.css';
+import VanillaTilt from 'vanilla-tilt';
+import { useEffect, useRef } from 'react';
+
+export default function Card() {
+    const tiltRef1 = useRef();
+    const tiltRef2 = useRef();
+    const tiltRef3 = useRef();
+    const tiltRef4 = useRef();
+
+    useEffect(() => {
+        const tiltRefs = [tiltRef1.current, tiltRef2.current, tiltRef3.current, tiltRef4.current];
+
+        tiltRefs.forEach(tiltRef => {
+            if (tiltRef) {
+                VanillaTilt.init(tiltRef, {
+                    max: 8,
+                    speed: 200,
+                    glare: true,
+                    'max-glare': 0.2,
+                });
+            }
+        });
+
+        return () => {
+            tiltRefs.forEach(tiltRef => {
+                if (tiltRef && tiltRef.vanillaTilt) {
+                    tiltRef.vanillaTilt.destroy();
+                }
+            });
+        };
+    }, []);
+
     return (
         <>
-        <h1 className={style.title}> Funcionalidades </h1>
-        <hr  className={style.linha} />
-        
-        <div className={style.card}> 
-     <div className="container mt-4">
+            <h1 className={style.title}>Funcionalidades</h1>
+
+
+            <div className="container mt-4">
                 <div className="row">
                     {/* Card 1 */}
                     <div className="col-md-3">
-                    <div className={style.card}>
+                        <div ref={tiltRef1} className={`tilt-card ${style.card}`}>
                             <div id={style.cardbody} className="card-body text-center">
-                                <ion-icon name="example-icon" size="large"></ion-icon>
-                                
-                                <div className={style.titleCard}>
-                                <h5 className="card-title">Título</h5>
-                                </div>
-
-                                <div className={style.icon}>
+                            <div className={style.icon}>
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
-                                </div>
-
+                                </div>                                <h5 className={style.titleCard}>Título</h5>
                                 <hr className={style.lineCard}/>
-
-                                <div className={style.descBody}> 
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur
-                                 adipisicing elit. Amet eaque voluptatum asperiores nis
-                                 i laudantium molestiae cumque delectus corrupti sunt. Q
-                                 uam amet architecto dolore tenetur, excepturi dolores. Ex
-                                 cepturi non ipsum inventore.</p>
-                                 </div>
+                                <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
-
                         </div>
                     </div>
 
-
-                    {/* Card 2 */}
                     <div className="col-md-3">
-                    <div className={style.card}>
+                        <div ref={tiltRef2} className={`tilt-card ${style.card}`}>
                             <div id={style.cardbody} className="card-body text-center">
-                                <ion-icon name="example-icon" size="large"></ion-icon>
-                                
-                                <div className={style.titleCard}>
-                                <h5 className="card-title">Título</h5>
-                                </div>
-
-                                <div className={style.icon}>
+                            <div className={style.icon}>
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
-                                </div>
-
+                                </div>                                <h5 className={style.titleCard}>Título</h5>
                                 <hr className={style.lineCard}/>
-
-                                <div className={style.descBody}> 
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur
-                                 adipisicing elit. Amet eaque voluptatum asperiores nis
-                                 i laudantium molestiae cumque delectus corrupti sunt. Q
-                                 uam amet architecto dolore tenetur, excepturi dolores. Ex
-                                 cepturi non ipsum inventore.</p>
-                                 </div>
+                                <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
-
                         </div>
                     </div>
 
-
-                    {/* Card 3 */}
                     <div className="col-md-3">
-                    <div className={style.card}>
+                        <div ref={tiltRef3} className={`tilt-card ${style.card}`}>
                             <div id={style.cardbody} className="card-body text-center">
-                                <ion-icon name="example-icon" size="large"></ion-icon>
-                                
-                                <div className={style.titleCard}>
-                                <h5 className="card-title">Título</h5>
-                                </div>
-
                                 <div className={style.icon}>
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
                                 </div>
-
+                                <h5 className={style.titleCard}>Título</h5>
                                 <hr className={style.lineCard}/>
-
-                                <div className={style.descBody}> 
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur
-                                 adipisicing elit. Amet eaque voluptatum asperiores nis
-                                 i laudantium molestiae cumque delectus corrupti sunt. Q
-                                 uam amet architecto dolore tenetur, excepturi dolores. Ex
-                                 cepturi non ipsum inventore.</p>
-                                 </div>
+                                <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
-
                         </div>
                     </div>
 
-
-
-                    {/* Card 4 */}
                     <div className="col-md-3">
-                        <div className={style.card}>
+                        <div ref={tiltRef4} className={`tilt-card ${style.card}`}>
                             <div id={style.cardbody} className="card-body text-center">
-                                <ion-icon name="example-icon" size="large"></ion-icon>
-                                
-                                <div className={style.titleCard}>
-                                <h5 className="card-title">Título</h5>
-                                </div>
-
-                                <div className={style.icon}>
+                            <div className={style.icon}>
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
-                                </div>
-
+                                </div>                                <h5 className={style.titleCard}>Título</h5>
                                 <hr className={style.lineCard}/>
-
-                                <div className={style.descBody}> 
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur
-                                 adipisicing elit. Amet eaque voluptatum asperiores nis
-                                 i laudantium molestiae cumque delectus corrupti sunt. Q
-                                 uam amet architecto dolore tenetur, excepturi dolores. Ex
-                                 cepturi non ipsum inventore.</p>
-                                 </div>
+                                <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
-
                         </div>
                     </div>
-
-
+                    {/* Adicione mais cards aqui se necessário */}
                 </div>
             </div>
-        </div>
-
         </>
-    )
+    );
 }
