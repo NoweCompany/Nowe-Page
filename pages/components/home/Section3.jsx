@@ -4,7 +4,7 @@ export default function Section3(){
     return (
         <>
         
-        <div className={style.borderTelas}>
+        {/* <div className={style.borderTelas}> */}
 
         <h1 className={style.title}> weon <span className={style.dot}>.</span> </h1>
         <h2 className={style.subtitle}>
@@ -31,7 +31,7 @@ export default function Section3(){
 
 
 
-        </div>
+        {/* </div> */}
 
         </>
     )

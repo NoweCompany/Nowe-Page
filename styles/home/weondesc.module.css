@@ -13,7 +13,7 @@
     color:#000;
     font-size: 200px;
     letter-spacing: -25px;
-    margin-left: 3.3rem;
+    margin-left: 9rem;
     padding: 1rem;
   }
 /* 
@@ -33,12 +33,12 @@
     color: black;
     font-family: regular;
     text-align: justify;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: -60px;
+    width: 80%;
+    margin: 1rem auto;
     letter-spacing: -1px;
+    margin-top: -10px;
     line-height: 1.1;
-  }
+    }
 
   .dot{
     font-family: sfpro;
@@ -64,14 +64,16 @@
         color:#000;
         font-size: 140px;
         letter-spacing: -20px;
-        margin-left: 0rem;
-        padding: 1rem;
-        margin-bottom: 2rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .dot{
         font-family: sfpro;
-        margin-left: -10px;
+        margin-right: 13px;
+        color: #404040;
       }
 
       .subtitle{

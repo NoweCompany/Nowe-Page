@@ -45,7 +45,6 @@ export default function Card() {
                             <div className={style.icon}>
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
                                 </div>                                <h5 className={style.titleCard}>Título</h5>
-                                <hr className={style.lineCard}/>
                                 <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
                         </div>
@@ -57,7 +56,6 @@ export default function Card() {
                             <div className={style.icon}>
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
                                 </div>                                <h5 className={style.titleCard}>Título</h5>
-                                <hr className={style.lineCard}/>
                                 <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
                         </div>
@@ -70,7 +68,6 @@ export default function Card() {
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
                                 </div>
                                 <h5 className={style.titleCard}>Título</h5>
-                                <hr className={style.lineCard}/>
                                 <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
                         </div>
@@ -82,7 +79,6 @@ export default function Card() {
                             <div className={style.icon}>
                                 <ion-icon name="cube-outline" size="large"></ion-icon>
                                 </div>                                <h5 className={style.titleCard}>Título</h5>
-                                <hr className={style.lineCard}/>
                                 <p className={style.TextCard}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi quo, dignissimos quia, magni molestiae explicabo voluptatem hic quos exercitationem pariatur molestias facere est inventore sit eaque? Eligendi, ducimus ad.</p>
                             </div>
                         </div>
