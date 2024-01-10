@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
     color: white;
-    padding: 2rem;
+    padding: 1rem;
     border: none;
-
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px); 
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
     left: 0;

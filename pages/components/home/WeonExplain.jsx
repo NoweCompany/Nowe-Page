@@ -1,14 +1,13 @@
-import style from '../../../styles/home/weondesc.module.css'
+import style from '../../../styles/home/weonExplain.module.css'
 export default function Section3(){
 
     return (
         <>
         
-        <div className={style.borderTelas}>
         <div className={style.containerCenter}> 
-
+        <h2 className={style.subtitleWeon}> CONHEÇA MAIS</h2>
         <h1 className={style.title}> weon <span className={style.dot}>.</span> </h1>
-        <h2 className={style.subtitle}>
+        <h2 className={style.Maintext}>
         Diante de uma vasta montanha de dados,
         o Weon surge como a inovação essencial
         para cadastrar e organizar informações
@@ -29,10 +28,9 @@ export default function Section3(){
         total dos dados, a Weon se torna a ferramenta essencial
         para impulsionar a eficácia das decisões.
         </h2>
-
+        <hr className={style.line} /> 
 
         </div>
-</div>
        
 
         </>

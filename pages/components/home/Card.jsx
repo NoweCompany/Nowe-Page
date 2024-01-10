@@ -1,4 +1,4 @@
-import style from '../../../styles/home/section4.module.css';
+import style from '../../../styles/home/card.module.css';
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect, useRef } from 'react';
 
@@ -33,6 +33,7 @@ export default function Card() {
 
     return (
         <>
+        <div className={style.containerMain}>
             <h1 className={style.title}>Funcionalidades</h1>
 
 
@@ -85,6 +86,7 @@ export default function Card() {
                     </div>
                     {/* Adicione mais cards aqui se necessário */}
                 </div>
+            </div>
             </div>
         </>
     );

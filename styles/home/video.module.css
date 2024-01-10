@@ -1,9 +1,14 @@
 .title{
-    padding: 5rem;
     font-size: 80px;
     color: #000;
     font-family: bold;
     letter-spacing: -5px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    font-family: extrabold;
+
 }
 
 .video{

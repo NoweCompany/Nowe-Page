@@ -1,4 +1,4 @@
-import style from '../../../styles/home/section5.module.css'
+import style from '../../../styles/home/video.module.css'
 export default function Section5(){
     return (
         <>
