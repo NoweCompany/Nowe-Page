@@ -1,4 +1,4 @@
-.borderTelas{
+/* .borderTelas{
     border:  1px solid #bcbcbc;
     border-radius: 30px;
     width: 95%;
@@ -6,15 +6,22 @@
     margin: 3rem auto;
     overflow: hidden;
     
-  }
+  } */
 
   .title{
     font-family: bold;
     color:#000;
-    font-size: 200px;
-    letter-spacing: -25px;
-    margin-left: 3.3rem;
+    font-size: 10rem;
+    letter-spacing: -20px;
+    margin-left: 1.5rem;
     padding: 1rem;
+  }
+
+
+  .containerCenter{
+    width: 70%;
+    margin: 0 auto;
+    height: 600px;
   }
 /* 
   .subtitle{
@@ -35,14 +42,15 @@
     text-align: justify;
     width: 90%;
     margin: 0 auto;
-    margin-top: -60px;
+    margin-top: -50px;
     letter-spacing: -1px;
     line-height: 1.1;
+    font-size: 1.5rem;
   }
 
   .dot{
     font-family: sfpro;
-    margin-left: -20px;
+    margin-left: -15px;
   }
 
   .destaque {

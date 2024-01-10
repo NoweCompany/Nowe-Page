@@ -1,8 +1,8 @@
 import index from "../styles/home/index.module.css"
 //componentes
 import Nav from '../pages/components/Nav'
-import Section1 from '../pages/components/home/Section1'
-import Page from '../pages/components/home/Section2'
+import Section1 from './components/home/Home'
+import Page from './components/home/Paginas'
 import Section3 from '../pages/components/home/Section3'
 import Section4 from '../pages/components/home/Section4'
 import Section5 from '../pages/components/home/Section5'

@@ -16,9 +16,6 @@ export default function Section1(){
 
                   <div className={index.containerBtn}>
                     <a href='#scroll' className={index.buttonconhecamais}> Conhecer </a>
-                    <div className={index.icon}>
-                     <a href="#scroll"> <ion-icon name="arrow-forward-outline"></ion-icon></a>
-                    </div>
                   </div>
                 </div>
               </div>

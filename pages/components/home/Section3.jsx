@@ -5,7 +5,7 @@ export default function Section3(){
         <>
         
         <div className={style.borderTelas}>
-
+        <div className={style.containerCenter}> 
         <h1 className={style.title}> weon <span className={style.dot}>.</span> </h1>
         <h2 className={style.subtitle}>
         Diante de uma vasta montanha de dados,
@@ -32,7 +32,7 @@ export default function Section3(){
 
 
         </div>
-
+</div>
         </>
     )
 }
