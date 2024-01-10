@@ -7,10 +7,6 @@ import Section3 from '../pages/components/home/Section3'
 import Section4 from '../pages/components/home/Section4'
 import Section5 from '../pages/components/home/Section5'
 import Footer from './components/Footer'
-
-
-
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {

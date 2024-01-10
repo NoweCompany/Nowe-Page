@@ -14,6 +14,7 @@
     font-size: 10rem;
     letter-spacing: -20px;
     margin-left: 1.5rem;
+    font-size: 200px;
     padding: 1rem;
   }
 
@@ -43,7 +44,10 @@
     width: 90%;
     margin: 0 auto;
     margin-top: -50px;
+    width: 80%;
+    margin: 1rem auto;
     letter-spacing: -1px;
+    margin-top: -10px;
     line-height: 1.1;
     font-size: 1.5rem;
   }
@@ -72,14 +76,16 @@
         color:#000;
         font-size: 140px;
         letter-spacing: -20px;
-        margin-left: 0rem;
-        padding: 1rem;
-        margin-bottom: 2rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .dot{
         font-family: sfpro;
-        margin-left: -10px;
+        margin-right: 13px;
+        color: #404040;
       }
 
       .subtitle{

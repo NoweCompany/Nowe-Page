@@ -21,6 +21,7 @@
 
 
 #cardbody{
+    box-shadow: rgba(46, 140, 240, 0.4) -5px 5px, rgba(46, 85, 240, 0.3) -10px 10px, rgba(46, 69, 240, 0.2) -15px 15px, rgba(46, 85, 240, 0.1) -20px 20px, rgba(46, 62, 240, 0.05) -25px 25px;
     background-color: #000000;
     transition: all .1s ease-in-out;
     border-radius: 10px;
@@ -28,14 +29,12 @@
     border: solid 3px #262626;
     transition: all .2s ease-in-out;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
 #cardbody:hover{
     background-color: #222222;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
+    box-shadow: rgba(14, 56, 145, 0.541) 0px 54px 55px, rgba(6, 51, 128, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .lineCard{
@@ -43,13 +42,17 @@
 }
 
 .icon{
-    color: rgb(13, 136, 202);
+    color: #0063da;
     padding: 5px;
 }
 
 .titleCard{
     color: white;
+    transition: all .1s ease-in-out;
     font-family: bold;
+}
+.titleCard:hover{
+    color: #0063da;
 }
 
 .TextCard{
