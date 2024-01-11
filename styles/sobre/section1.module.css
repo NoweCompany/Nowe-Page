@@ -50,7 +50,7 @@
   }
 
   .cards{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 1000px;
   }
 
@@ -59,15 +59,18 @@
     text-align: justify;
     color: white;
     padding: 50px;
+    margin-top: -30px;
   }
 
   .cardBody{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
   }
 
   .card{
     border-radius: 10px;
     border: solid 1px #2c2c2c;
+    width: 100%;
+    cursor: pointer;
   }
 
   .cardTitle{
@@ -76,10 +79,17 @@
     align-items: center;
     color: white;
     font-family: bold;
+    letter-spacing: -2px;
     font-size: 30px;
     margin-top: 2rem;
+    transition: all .2s ease-in-out;
   }
 
+  .cardTitle:hover{
+    color: #0063da;
+  }
+
+  
   .line{
     border: 1px solid #b1b1b1;
     width: 50%;

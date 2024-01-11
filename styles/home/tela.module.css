@@ -8,6 +8,11 @@
   
   }
 
+  .containerMain{
+    height: 650px;
+    margin-top: 100px;
+  }
+
 
    .descricao{
     font-family: bold;
@@ -20,39 +25,35 @@
    .um{
     color: #000;
     font-size: 90px;
+    transition: all .2s ease-in-out;
    }
   
    .dois{
     color: #3a3a3a;
     font-size: 90px;
     margin-top: -40px;
-  
+    transition: all .2s ease-in-out;
    }
   
    .tres{
     color: #737373;
     font-size: 90px;
     margin-top: -40px;
-  
+    transition: all .2s ease-in-out;
    }
   
    .quatro{
     color: #b1b1b1;
     font-size: 90px;
     margin-top: -40px;
-  
+    transition: all .2s ease-in-out;
    }
   
-  
-  .borderTelas{
-    border:  1px solid #bcbcbc;
-    border-radius: 30px;
-    width: 95%;
-    height: 40rem;
-    margin: 5rem auto;
-    overflow: hidden;
-
-  }
+   .um:hover, .dois:hover, .tres:hover, .quatro:hover{
+    font-size: 95px;
+    color: rgb(16, 103, 210);
+    cursor:pointer
+   }
   
   
   /* media querty */
@@ -107,28 +108,34 @@
   
     .um{
       color: #000;
-      font-size: 50px;
+      font-size: 55px;
      }
     
      .dois{
       color: #3a3a3a;
-      font-size: 50px;
+      font-size: 55px;
       margin-top: -30px;
     
      }
     
      .tres{
       color: #737373;
-      font-size: 50px;
+      font-size: 55px;
       margin-top: -30px;
     
      }
     
      .quatro{
       color: #b1b1b1;
-      font-size: 50px;
+      font-size: 55px;
       margin-top: -30px;
   }
+
+  .um:hover, .dois:hover, .tres:hover, .quatro:hover{
+    font-size: 55px;
+    color: rgb(16, 103, 210);
+    cursor:pointer
+   }
   
   }
 

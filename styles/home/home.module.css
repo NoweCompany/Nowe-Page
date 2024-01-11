@@ -1,0 +1,150 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
+ .backgroundContainer {
+  background-image: url('../../public/Img/outlines.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100%; 
+} 
+
+
+.logo {
+ max-width: 600px;
+ width: 100%;
+ height: auto;
+ margin-bottom: 1rem;
+}
+
+.cube {
+ max-width: 900px;
+ width: 200%;
+ height: auto;
+ display: block;
+
+}
+
+
+.destaque {
+  color: #4599ff; 
+  margin-top: 21rem;
+ }
+
+
+ .subtitle{
+  color: rgb(255, 255, 255);
+  font-family: bold;
+  font-size: 1.5rem;
+ }
+
+
+
+.borderTelas{
+  border:  1px solid #bcbcbc;
+  border-radius: 30px;
+  width: 95%;
+  height: 40rem;
+  margin: 1rem auto;
+  overflow: hidden;
+  
+}
+
+ .buttonconhecamais{
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  background-color: white;
+  color: black;
+  font-family: regular;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  width: 30%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-decoration: none;
+ }
+
+ 
+ .buttonconhecamais:hover{
+  background-color: #0063da;
+  color: #ffff;
+ 
+ }
+
+ 
+.icon ion-icon {
+  font-size: 40px; 
+  color: white;
+  transition: all .1s ease-in-out;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.icon ion-icon:hover {
+  font-size: 40px; 
+  color: #0063da;
+}  
+
+
+.buttonconhecamais {
+  margin-right: 2rem; 
+}
+
+/* media querty */
+
+@media (max-width: 600px) {
+
+  .logo {
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+
+  .contentlogo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+
+  .cube {
+    display: none;
+   
+   }
+
+  .subtitle{
+    color: white;
+    font-family: bold;
+    font-size: 30px;
+    margin: 1.5rem auto;
+    width: 90%;
+   }
+
+    .buttonconhecamais{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    width: 90%;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+   }
+  
+
+}

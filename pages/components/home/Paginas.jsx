@@ -1,9 +1,8 @@
-import style from '../../../styles/home/homeSectionUm.module.css'
+import style from '../../../styles/home/tela.module.css'
 export default function Page(){
     return (
         <>
-        <section id="telas">
-      <div className={style.borderTelas}>
+        <div className={style.containerMain}> 
       <div className="container my-4">
       <div className="row align-items-center">
         <div className="col-lg-6">
@@ -20,9 +19,7 @@ export default function Page(){
         </div>
       </div>
     </div>
-  </div>
-      </section>
-        
+    </div>        
         </>
     )
 }

@@ -1,0 +1,104 @@
+/* container */
+.containerMain{
+    height: 100vh;
+    background-color: #ebebeb;  
+}
+
+.containerText{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+/* end container */
+
+/* texts  */
+.subtitleWeon{
+    font-family: extrabold;
+    color:#0063da; 
+    font-size: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+  }
+
+.title{
+    font-size: 100px;
+    font-family: extrabold;
+    color: #000;
+    letter-spacing: -5px;
+}
+
+/* end texts */
+
+/* card */
+#cardbody{
+    background-color: #1c1c1c;
+    transition: all .1s ease-in-out;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 22rem;
+}
+
+.TextCard{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: regular;
+}
+
+#cardbody:hover{
+    box-shadow: rgba(0, 0, 0, 0.874) 0px 20px 40px;
+
+}
+
+.lineCard{
+    color: rgb(0, 0, 0);
+}
+
+.icon{
+    color: #0063da;
+    padding: 5px;
+}
+
+.titleCard{
+    color: white;
+    transition: all .1s ease-in-out;
+    font-family: extrabold;
+}
+
+/* end card */
+
+@media (max-width: 600px) {
+    .title{
+        font-size: 50px;
+    }
+
+    #cardbody{
+        transition: all .1s ease-in-out;
+    }
+
+    .card{
+        margin-top: 10px;
+    }
+
+    .linha{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 100px;
+        margin-bottom: 10px;
+    }
+
+    .containerMain{
+        height: 200vh;
+        background-color: #ebebeb;  
+    }
+}
+
+
+
