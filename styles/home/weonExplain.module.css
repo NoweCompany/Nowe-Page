@@ -27,7 +27,6 @@
   }
 
 
-
   .containerCenter{
     width: 80%;
     margin: 0 auto;
@@ -54,147 +53,35 @@
   /* mediaquerty */
 
   @media (max-width: 600px){
-    .borderTelas{
-        width: 95%;
-        height: 70rem;
-        margin: 1rem auto;
-      }
-
-      .title{
-        font-family: bold;
-        color:#000;
-        font-size: 140px;
-        letter-spacing: -20px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .dot{
-        font-family: sfpro;
-        margin-right: 13px;
-        color: #404040;
-      }
-
-      .subtitle{
-        color: black;
-        font-family: regular;
-        width: 90%;
-        margin: 0 auto;
-        margin-top: -60px;
-        letter-spacing: -1px;
-        line-height: 1.1;
-      }
-  }
     
+  .title{
+    font-size: 8rem;
+
+  }
+
   
-  @media (max-width: 900px){
-    .borderTelas{
-      width: 95%;
-      height: 55rem;
-      margin: 1rem auto;
-    }
-
-    .title{
-      font-size: 140px;
-      letter-spacing: -20px;
-      margin-left: 10rem;
-      padding: 1rem;
-      margin-bottom: 2rem;
-    }
-    
-    .dot{
-      font-family: sfpro;
-      margin-left: -10px;
-    }
-
-  }
-  
-  @media (max-width: 900px){
-    .borderTelas{
-      width: 95%;
-      height: 55rem;
-      margin: 1rem auto;
-    }
-
-    .title{
-      font-size: 140px;
-      letter-spacing: -20px;
-      margin-left: 10rem;
-      padding: 1rem;
-      margin-bottom: 2rem;
-    }
-    
-    .dot{
-      font-family: sfpro;
-      margin-left: -10px;
-    }
-
-  }
-  
-  @media (max-width: 900px){
-    .borderTelas{
-      width: 95%;
-      height: 55rem;
-      margin: 1rem auto;
-    }
-
-    .title{
-      font-size: 140px;
-      letter-spacing: -20px;
-      margin-left: 10rem;
-      padding: 1rem;
-      margin-bottom: 2rem;
-    }
-    
-    .dot{
-      font-family: sfpro;
-      margin-left: -10px;
-    }
-
-  }
-  
-  
-  @media (max-width: 375px){
-    .borderTelas{
-      width: 95%;
-      height: 70rem;
-      margin: 1rem auto;
-    }
-
-    .title{
-      font-size: 120px;
-      letter-spacing: -13px;
-      padding: 2rem;
-      margin: 1rem auto;
-    }
-    
-    .dot{
-      font-family: sfpro;
-      margin-left: -10px;
-    }
-
+  .containerCenter{
+    width: 90%;
+    margin: 0 auto;
+    height: 1200px;
   }
 
- 
-  @media (max-width: 896px){
-    .borderTelas{
-      width: 95%;
-      height: 70rem;
-      margin: 1rem auto;
-    }
-
-    .title{
-      font-size: 120px;
-      letter-spacing: -13px;
-      padding: 2rem;
-      margin: 1rem auto;
-    }
-    
-    .dot{
-      font-family: sfpro;
-      margin-left: -10px;
-    }
-
+  .Maintext{
+    color: black;
+    text-align: justify;
+    width: 90%;
+    margin: 1rem auto;
+    letter-spacing: -1px;
+    line-height: 1.3;
+    font-size: 1.5rem;
   }
+  }
+
+  @media (max-width:375px){
+    .containerCenter{
+      width: 90%;
+      margin: 0 auto;
+      height: 1300px;
+    }
+  }
+    

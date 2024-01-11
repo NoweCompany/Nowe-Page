@@ -10,16 +10,14 @@ export default function Section3() {
         <h2 className={style.Maintext}>
           Diante de uma vasta montanha de dados, o Weon surge como a inovação
           essencial para cadastrar e organizar informações de maneira eficiente
-          e intuitiva. Sua característica marcante é a capacidade de criar
-          <span className={style.destaque}>
+          e intuitiva. Sua característica marcante é a capacidade de criar <span className={style.destaque}>
             tabelas totalmente customizáveis
           </span>
           , adaptadas às necessidades individuais, proporcionando liberdade na
           modelagem do espaço de trabalho. Além da facilidade de cadastro e
           organização, o Weon se destaca pela sua motivação central: extrair
           informações valiosas para aprimorar decisões. Com um sistema que
-          permite a rápida
-          <span className={style.destaque}>
+          permite a rápida <span className={style.destaque}>
             criação de gráficos, indicadores e relatórios, atualizados em tempo
             real, independente do tipo de dado cadastrado
           </span>

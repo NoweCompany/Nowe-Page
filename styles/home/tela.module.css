@@ -108,28 +108,34 @@
   
     .um{
       color: #000;
-      font-size: 50px;
+      font-size: 55px;
      }
     
      .dois{
       color: #3a3a3a;
-      font-size: 50px;
+      font-size: 55px;
       margin-top: -30px;
     
      }
     
      .tres{
       color: #737373;
-      font-size: 50px;
+      font-size: 55px;
       margin-top: -30px;
     
      }
     
      .quatro{
       color: #b1b1b1;
-      font-size: 50px;
+      font-size: 55px;
       margin-top: -30px;
   }
+
+  .um:hover, .dois:hover, .tres:hover, .quatro:hover{
+    font-size: 55px;
+    color: rgb(16, 103, 210);
+    cursor:pointer
+   }
   
   }
 

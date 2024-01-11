@@ -16,6 +16,10 @@
  
 }
 
+.navItems{
+    display: flex;
+}
+
 .navItems a {
     margin-right: 1rem;
     color: white;
@@ -23,6 +27,7 @@
     margin-left: 2rem;
     font-family: bold;
     transition: all .1s ease-in-out;
+
 }
 
 
@@ -48,6 +53,10 @@
 .weonBtn:hover {
     background-color:#0063da; 
     color: rgb(255, 255, 255);
+}
+
+.activeLink{
+    color: #0063da;
 }
 
 @media (max-width: 480px) {
