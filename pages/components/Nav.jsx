@@ -21,7 +21,7 @@ export default function Nav() {
         </Link>
       </div>
       <div className={navstyle.navButton}>
-        <Link href='https://nowecompany.com.br/weon/' passHref className={navstyle.weonBtn} target="_blank" rel="noopener noreferrer">weon
+        <Link href='https://weon.nowecompany.com.br/' passHref className={navstyle.weonBtn} target="_blank" rel="noopener noreferrer">weon
         </Link>
       </div>
     </nav>
