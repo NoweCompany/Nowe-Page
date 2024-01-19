@@ -10,6 +10,7 @@ export default function Nav() {
   return (
     <nav className={navstyle.navbar}>
       <div className={navstyle.navItems}>
+        <Link href="/"> <img src="/Img/white.png" alt="Logo" className={navstyle.logo} /></Link>
         <Link href="/">
           <div className={isActive('/')}>Home</div>
         </Link>

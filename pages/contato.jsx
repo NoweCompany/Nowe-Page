@@ -1,7 +1,12 @@
 import Nav from '../pages/components/Nav'
 import Footer from './components/Footer'
 import style from '../styles/form/form.module.css'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import email from "../functions/email"
+
 export default function contato(){
+
    return (
     <>
     <Nav />
@@ -11,10 +16,10 @@ export default function contato(){
 
       <div className="container">
         <h2 className={style.title}>Entre em contato conosco.</h2>
-        <form id='form' action="https://formspree.io/f/mkndwbwb" method="POST">  
+        <form ref={form} onSubmit={sendEmail}>  
           <div className="row mb-3">
             <div className="col-md-6">
-              <input type="text" className={style.input} placeholder="Nome" name="nome"  required />
+              <input type="text" className={style.input} placeholder="Nome" name="user_name"  required />
             </div>
             <div className="col-md-6">
                 <div className={style.margin}>
@@ -24,16 +29,16 @@ export default function contato(){
           </div>
           <div className="row mb-3">
             <div className="col">
-              <input type="email" className={style.input} placeholder="Email" name="email" required />
+              <input type="email" className={style.input} placeholder="Email" name="user_email" required />
             </div>
           </div>
           <div className="row mb-3">
             <div className="col">
-              <textarea className={style.input} rows="5" placeholder="Sua mensagem" name="mensagem" required></textarea>
+              <textarea className={style.input} rows="5" placeholder="Sua mensagem" name="message" required></textarea>
             </div>
           </div>
           <div className="text-start">
-            <button type="submit" className={style.button}>Enviar <ion-icon name="arrow-forward-outline"></ion-icon> </button>
+            <button value="Send" type="submit" className={style.button}>Enviar <ion-icon name="arrow-forward-outline"></ion-icon> </button>
           </div>
         </form>
       </div>
