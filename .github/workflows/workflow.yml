@@ -29,6 +29,7 @@ jobs:
         host: ${{ vars.HOST }}
         username: ${{ vars.USERNAME }}
         password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.KEY }}
         port: ${{ vars.PORT }}
         script: |
           cd /home/hmlg.landingpage.nowecompany.com.br/public_html_hmlg
@@ -49,7 +50,7 @@ jobs:
       with:
         host: ${{ vars.HOST }}
         username: ${{ vars.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.KEY }}
         port: ${{ vars.PORT }}
         script: |
           cd /home/nowecompany.com.br/public_html
