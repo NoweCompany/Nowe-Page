@@ -10,6 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
+      - name: Repo Checkout
+        uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: npm install
       - name: Build
         run: npm run build
 
@@ -19,8 +23,6 @@ jobs:
       name: hmlg
     needs: build
     steps:
-    - name: Repo Checkout
-      uses: actions/checkout@v4
     - name: Hotinger Deployment
       uses: appleboy/ssh-action@v1.0.1
       with:
@@ -32,6 +34,7 @@ jobs:
         script: |
           cd /home/hmlg.landingpage.nowecompany.com.br/public_html_hmlg
           git pull origin main
+          npm install
           npm run build
           docker-compose up -d
           docker-compose restart
@@ -42,8 +45,6 @@ jobs:
       name: production
     needs: deploy-homologation
     steps:
-    - name: Repo Checkout
-      uses: actions/checkout@v4
     - name: Hotinger Deployment
       uses: appleboy/ssh-action@v1.0.1
       with:
@@ -55,6 +56,7 @@ jobs:
         script: |
           cd /home/nowecompany.com.br/public_html
           git pull origin main
+          npm install
           npm run build
           docker-compose up -d
           docker-compose restart
