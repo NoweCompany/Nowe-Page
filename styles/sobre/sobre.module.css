@@ -26,7 +26,6 @@
   width: 70%;
   line-height: 0.9;
 
-
 }
 
 .Mainsubtitle {
@@ -104,12 +103,15 @@
   width: 400px;
   height: auto;
   border-radius: 10px;
-  transition: all .2s ease-in-out;
 }
 
-.imgMoyseys:hover {
-  box-shadow: rgba(0, 0, 255, 0.4) -5px 5px, rgba(0, 0, 255, 0.3) -10px 10px, rgba(0, 0, 255, 0.2) -15px 15px, rgba(0, 0, 255, 0.1) -20px 20px, rgba(0, 0, 255, 0.05) -25px 25px;
+.noweIcon{
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
 }
+
 
 .containerHistoria {
   display: flex;
@@ -120,7 +122,7 @@
   margin: auto;
   gap: 4rem;
   width: 60%;
-  height: 1000px;
+  height: 800px;
 }
 
 .titleHistoria {
@@ -139,12 +141,222 @@
   font-size: 1.5rem;
 }
 
+.containerMetodologia {
+  height: auto;
+  margin-top: 5rem;
+  box-sizing: border-box; 
+}
+
+
+.beforeTitle{
+  font-family: extrabold;
+  color:#0063da; 
+  font-size: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: -60px;
+}
+
+.titleMetodologia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  font-family: extrabold;
+  color: black;
+  font-size: 8rem;
+
+}
+
+.descriptionMetodologia{
+  color: rgb(0, 0, 0);
+  font-family: regular;
+  text-align: justify;
+  width: 60%;
+  margin: 0 auto;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  font-size: 1.5rem;
+}
+
+ul.descriptionValor {
+  list-style: none;
+  padding: 0; 
+}
+
+ul.descriptionValor li {
+  display: block; 
+  margin-bottom: 0.5em; 
+}
+
+span.firstLetter {
+  display: inline-block; 
+}
+
+.descriptionValor{
+  color: rgb(255, 255, 255);
+  font-family: regular;
+  text-align: justify;
+  width: 30%;
+  margin: 0 auto;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  font-size: 1.5rem;
+}
 
 @media (max-width: 600px) {
 
- 
+
+  .Maintitle {
+    font-family: bold;
+    font-size: 3rem;
+    letter-spacing: -4px;
+    line-height: 0.9;
+    color: white;
+  }
+  
+  .Mainsubtitle {
+    color: #ffffff;
+    font-family: bold;
+    font-size: 6rem;
+    letter-spacing: -10px;
+    margin-top: -30px;
+  }
+  
+  
+.imgMoyseys {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.noweIcon{
+  display: none;
+}
+
+.containerHistoria {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 90%;
+  height: auto;
+}
+
+.titleHistoria {
+  font-family: extrabold;
+  color: #000000;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  font-size: 2.5rem;
+  margin-top: 0rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.descriptionHistoria {
+  font-family: regular;
+  text-align: justify;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: auto;
+}
 
 
+.containerMissao {
+  background-color: #000;
+  height: auto;
+  display: grid;
+  align-items: center;
+  padding: 1rem;
+}
 
+.containerVisao {
+  background-color: #151515;
+  height: auto;
+  display: grid;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.containerValor {
+  background-color: #212121;
+  height: auto;
+  display: grid;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.description {
+  color: rgb(255, 255, 255);
+  font-family: regular;
+  text-align: justify;
+  width: 90%;
+  margin: 1rem auto;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 4rem;
+  font-family: extrabold;
+  color: #ffffff;
+  letter-spacing: -4px;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  display: flex;
+}
+
+.descriptionValor{
+  text-align: center;
+  width: 90%;
+}
+
+
+.containerMetodologia {
+  height: auto;
+  margin-top: 5rem;
+}
+
+.beforeTitle{
+  font-family: extrabold;
+  color:#0063da; 
+  font-size: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
+  margin-bottom: -60px;
+}
+
+.titleMetodologia{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  font-family: extrabold;
+  color: black;
+  font-size: 5rem;
+}
+
+.descriptionMetodologia{
+  color: rgb(0, 0, 0);
+  font-family: regular;
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
 
 }
