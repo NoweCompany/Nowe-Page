@@ -2,15 +2,15 @@ import Nav from '../pages/components/Nav'
 import Footer from './components/Footer'
 import style from '../styles/form/form.module.css'
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import email from "../functions/email"
+// import emailjs from '@emailjs/browser';
+// import email from "../functions/email"
 
 export default function contato(){
 
    return (
     <>
     <Nav />
-    <div className={style.background}>
+    {/* <div className={style.background}>
     <div className={style.containerSegundo}> 
     <div className={style.formContainer}>
 
@@ -44,7 +44,7 @@ export default function contato(){
       </div>
     </div>
     </div>
-    </div>
+    </div> */}
     <Footer />
     </>
     )
