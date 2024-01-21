@@ -3,20 +3,20 @@ import Footer from './components/Footer'
 import style from '../styles/form/form.module.css'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import email from "../functions/email"
+import email from "../function/email"
 
 export default function contato(){
 
    return (
     <>
     <Nav />
-    <div className={style.background}>
+    {/* <div className={style.background}>
     <div className={style.containerSegundo}> 
     <div className={style.formContainer}>
 
       <div className="container">
         <h2 className={style.title}>Entre em contato conosco.</h2>
-        <form ref={form} onSubmit={sendEmail}>  
+        <form onSubmit={sendEmail}>  
           <div className="row mb-3">
             <div className="col-md-6">
               <input type="text" className={style.input} placeholder="Nome" name="user_name"  required />
@@ -44,7 +44,7 @@ export default function contato(){
       </div>
     </div>
     </div>
-    </div>
+    </div> */}
     <Footer />
     </>
     )
