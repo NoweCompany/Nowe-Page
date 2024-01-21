@@ -24,13 +24,12 @@ jobs:
     needs: build
     steps:
     - name: Hotinger Deployment
-      uses: appleboy/ssh-action@v1.0.1
+      uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ vars.HOST }}
         username: ${{ vars.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ vars.PORT }}
-        key: ${{ secrets.SERVER_SSH_KEY }}
         script: |
           cd /home/hmlg.landingpage.nowecompany.com.br/public_html_hmlg
           git pull origin main
@@ -46,13 +45,12 @@ jobs:
     needs: deploy-homologation
     steps:
     - name: Hotinger Deployment
-      uses: appleboy/ssh-action@v1.0.1
+      uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ vars.HOST }}
         username: ${{ vars.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ vars.PORT }}
-        key: ${{ secrets.SERVER_SSH_KEY }}
         script: |
           cd /home/nowecompany.com.br/public_html
           git pull origin main
