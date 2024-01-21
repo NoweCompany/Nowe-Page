@@ -4,9 +4,12 @@ services:
     build: .
     container_name: "${CONTAINER_NAME}"
     volumes:
-      - .:/home/landingPage
+      - .:/home/landingPage/.next
     ports:
       - "${CONTAINER_PORT}:3000"
+    env_file:
+      - .env
+    command: npm start
     restart: always
     networks:
       - mynetwork
