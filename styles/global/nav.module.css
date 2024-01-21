@@ -13,11 +13,11 @@
     left: 0;
     right: 0;
     z-index: 10;
- 
 }
 
 .navItems{
     display: flex;
+    align-items: center;
 }
 
 .navItems a {
@@ -27,14 +27,20 @@
     margin-left: 2rem;
     font-family: bold;
     transition: all .1s ease-in-out;
-
 }
 
 
 .navItems a:hover {
     color: #0063da; 
-   
+    
 }
+
+.logo {
+    width: 70px; 
+    height: auto;
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+  }
 
 .weonBtn {
     background-color: rgb(255, 255, 255);
@@ -58,6 +64,7 @@
 .activeLink{
     color: #0063da;
 }
+  
 
 @media (max-width: 480px) {
     

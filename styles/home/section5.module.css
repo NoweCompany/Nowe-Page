@@ -1,0 +1,26 @@
+.title{
+    padding: 5rem;
+    font-size: 80px;
+    color: #000;
+    font-family: bold;
+    letter-spacing: -5px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+
+    width: 800px;
+    height: 450px;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 600px){
+    .video {
+        width: 400px;
+        height: 200px;
+    }
+    
+}

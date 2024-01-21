@@ -40,7 +40,6 @@ export default function Card() {
     <>
       <div className={style.containerMain}>
         <div className={style.containerText}>
-          <h2 className={style.subtitleWeon}> CONHEÇA MAIS</h2>
           <h1 className={style.title}>Funcionalidades</h1>
         </div>
 
@@ -51,7 +50,7 @@ export default function Card() {
               <div ref={tiltRef1} className={`tilt-card ${style.card}`}>
                 <div id={style.cardbody} className="card-body text-center">
                   <div className={style.icon}>
-                    <ion-icon name="cube-outline" size="large"></ion-icon>
+                  <ion-icon size="large" name="analytics-outline"></ion-icon>
                   </div>{" "}
                   <h5 className={style.titleCard}>Central de Dados</h5>
                   <p className={style.TextCard}>
@@ -64,7 +63,7 @@ export default function Card() {
               <div ref={tiltRef2} className={`tilt-card ${style.card}`}>
                 <div id={style.cardbody} className="card-body text-center">
                   <div className={style.icon}>
-                    <ion-icon name="cube-outline" size="large"></ion-icon>
+                  <ion-icon size="large" name="stats-chart-outline"></ion-icon>
                   </div>{" "}
                   <h5 className={style.titleCard}>Visualização Dinâmica</h5>
                   <p className={style.TextCard}>
@@ -77,7 +76,7 @@ export default function Card() {
               <div ref={tiltRef3} className={`tilt-card ${style.card}`}>
                 <div id={style.cardbody} className="card-body text-center">
                   <div className={style.icon}>
-                    <ion-icon name="cube-outline" size="large"></ion-icon>
+                  <ion-icon size="large" name="person-outline"></ion-icon>
                   </div>
                   <h5 className={style.titleCard}>Gerenciamento de Usuários</h5>
                   <p className={style.TextCard}>
@@ -90,7 +89,7 @@ export default function Card() {
               <div ref={tiltRef4} className={`tilt-card ${style.card}`}>
                 <div id={style.cardbody} className="card-body text-center">
                   <div className={style.icon}>
-                    <ion-icon name="cube-outline" size="large"></ion-icon>
+                  <ion-icon size="large" name="cloud-upload-outline"></ion-icon>
                   </div>{" "}
                   <h5 className={style.titleCard}>Registro e Histórico</h5>
                   <p className={style.TextCard}>
