@@ -15,7 +15,6 @@
     "dotenv": "^16.3.1",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18",
-    "vanilla-tilt": "^1.8.1"
+    "react-dom": "^18"
   }
 }
