@@ -24,11 +24,10 @@ jobs:
     needs: build
     steps:
     - name: Hotinger Deployment
-      uses: appleboy/ssh-action@v1.0.3
+      uses: appleboy/ssh-action@v1.0.1
       with:
         host: ${{ vars.HOST }}
         username: ${{ vars.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
         key: ${{ secrets.KEY }}
         port: ${{ vars.PORT }}
         script: |
@@ -46,7 +45,7 @@ jobs:
     needs: deploy-homologation
     steps:
     - name: Hotinger Deployment
-      uses: appleboy/ssh-action@v1.0.3
+      uses: appleboy/ssh-action@v1.0.1
       with:
         host: ${{ vars.HOST }}
         username: ${{ vars.USERNAME }}
