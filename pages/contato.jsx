@@ -2,17 +2,12 @@ import Nav from '../pages/components/Nav'
 import Footer from './components/Footer'
 import style from '../styles/form/form.module.css'
 import React, { useRef } from 'react';
-<<<<<<< HEAD
-// import emailjs from '@emailjs/browser';
-// import email from "../functions/email"
-=======
 import emailjs from '@emailjs/browser';
 import email from "../function/email"
->>>>>>> 8fe73f04bada7979bd02ea75e66d2789e63cd4cc
 
 export default function contato(){
 
-   return (
+  return (
     <>
     <Nav />
     {/* <div className={style.background}>
@@ -21,11 +16,7 @@ export default function contato(){
 
       <div className="container">
         <h2 className={style.title}>Entre em contato conosco.</h2>
-<<<<<<< HEAD
-        <form ref={form} onSubmit={sendEmail}>  
-=======
         <form onSubmit={sendEmail}>  
->>>>>>> 8fe73f04bada7979bd02ea75e66d2789e63cd4cc
           <div className="row mb-3">
             <div className="col-md-6">
               <input type="text" className={style.input} placeholder="Nome" name="user_name"  required />
