@@ -17,13 +17,13 @@ jobs:
       - name: Build
         run: npm run build
 
-  deploy-homologation:
+  buildInHomologation:
     runs-on: ubuntu-22.04
     environment:
       name: hmlg
     needs: build
     steps:
-    - name: Hotinger Deployment
+    - name: Build aplication in environment of homologation
       uses: appleboy/ssh-action@v1.0.1
       with:
         host: ${{ vars.HOST }}
@@ -35,16 +35,32 @@ jobs:
           git pull origin main
           npm install
           npm run build
+
+  upContainerInHomologation:
+    runs-on: ubuntu-22.04
+    environment:
+      name: hmlg
+    needs: buildInHomologation
+    steps:
+    - name: Up containers in environment of homologation
+      uses: appleboy/ssh-action@v1.0.1
+      with:
+        host: ${{ vars.HOST }}
+        username: ${{ vars.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ vars.PORT }}
+        script: |
+          cd /home/hmlg.landingpage.nowecompany.com.br/public_html_hmlg
           docker-compose up -d
           docker-compose restart
 
-  deploy-Production:
+  buildInProduction:
     runs-on: ubuntu-22.04
     environment:
       name: production
-    needs: deploy-homologation
+    needs: upContainerInHomologation
     steps:
-    - name: Hotinger Deployment
+    - name: Build aplication in environment of production
       uses: appleboy/ssh-action@v1.0.1
       with:
         host: ${{ vars.HOST }}
@@ -56,5 +72,21 @@ jobs:
           git pull origin main
           npm install
           npm run build
+
+  deployProduction:
+    runs-on: ubuntu-22.04
+    environment:
+      name: production
+    needs: buildInProduction
+    steps:
+    - name: Up containers in environment of Production
+      uses: appleboy/ssh-action@v1.0.1
+      with:
+        host: ${{ vars.HOST }}
+        username: ${{ vars.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ vars.PORT }}
+        script: |
+          cd /home/nowecompany.com.br/public_html
           docker-compose up -d
           docker-compose restart
