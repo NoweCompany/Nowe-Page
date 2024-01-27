@@ -1,18 +1,26 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-  export const ContactUs = () => { 
-    const form = useRef();
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('process.env.YOUR_SERVICE_ID', 'process.env.YOUR_TEMPLATE_ID', form.current, 'process.env.YOUR_PUBLIC_KEY')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+const sendEmail = async (formData) => {
+  try {
+    const templateParams = {
+      user_name: formData.user_name,
+      telefone: formData.telefone,
+      user_email: formData.user_email,
+      message: formData.message,
     };
+    
+    const response = await emailjs.send(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+      templateParams,
+      process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+    );
+
+    console.log('Email enviado com sucesso:', response);
+  } catch (error) {
+    console.error('Erro ao enviar o email:', error);
   }
-  
+};
+
+export default sendEmail;

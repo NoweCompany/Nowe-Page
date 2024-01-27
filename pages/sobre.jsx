@@ -67,7 +67,7 @@ export default function contato() {
                 <h1 className={style.titleMetodologia}>SCRUM</h1>
 
                 <h1 className={style.descriptionMetodologia}>
-                    Adicionar uma descrição com o seguinte texto “Utilizamos a metodologia Scrum em nossos projetos, uma abordagem ágil que se baseia em ciclos iterativos, conhecidos como sprints. A equipe autogerenciável colabora para entregar incrementos de funcionalidades prioritárias durante esses períodos definidos. Reuniões diárias, planejamento de sprint, revisão e retrospectiva são partes essenciais do processo, proporcionando flexibilidade e adaptabilidade contínuas para atender às necessidades do projeto.
+                   Utilizamos a metodologia Scrum em nossos projetos, uma abordagem ágil que se baseia em ciclos iterativos, conhecidos como sprints. A equipe autogerenciável colabora para entregar incrementos de funcionalidades prioritárias durante esses períodos definidos. Reuniões diárias, planejamento de sprint, revisão e retrospectiva são partes essenciais do processo, proporcionando flexibilidade e adaptabilidade contínuas para atender às necessidades do projeto.
                 </h1>
             </div>
 
