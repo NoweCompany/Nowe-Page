@@ -19,7 +19,7 @@
     font-family: bold;
     background-color: rgb(12, 12, 12);
     border: solid 2px #1b1919;
-    padding: 30px;
+    padding: 55px;
     border-radius: 10px;
     position: relative;
   }
@@ -40,12 +40,20 @@
 
 .containerTxt {
     text-align: center;
+    color: white;
   }
   
   .text {
-    margin-bottom: 20px;
+   font-size: 2rem;
   }
   
+  .subtext{
+    font-family: regular;
+    color: rgb(202, 202, 202);
+    font-size: 1rem;
+    
+  }
+
   .containerIcon {
     color: #008000; 
   }
@@ -53,3 +61,4 @@
   .fade-in {
     opacity: 1; 
   }
+

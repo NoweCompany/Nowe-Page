@@ -17,10 +17,8 @@ export default function Overlay({ closeModal }) {
                         <ion-icon name="close-circle-outline"></ion-icon>
                     </button>
                     <div className={style.containerTxt}>
-                        <h1 className={style.text}>Obrigado pelo contato.</h1>
-                        <div className={style.containerIcon}>
-                            <ion-icon size="large" name="checkmark-circle-outline"></ion-icon>
-                        </div>
+                        <h1 className={style.text}>Sua mensagem foi enviada!</h1>
+                        <h2 className={style.subtext}>Retornaremos o mais rápido possível, obrigado.</h2>
                     </div>
                 </div>
             </div>

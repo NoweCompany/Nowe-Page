@@ -10,7 +10,7 @@
 
 .formContainer {
     width: 35%;
-    margin: auto;
+    height: auto;
     background-color: black;
     padding: 50px;
     border-radius: 10px;
@@ -21,8 +21,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
+    margin: 1rem auto;
 }
 
 .title {
@@ -31,8 +32,8 @@
     font-size: 50px;
     letter-spacing: -3px;
     width: 90%;
-    margin-bottom: 5rem;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 
 }
 

@@ -1,0 +1,19 @@
+.container {
+    background-color: black;
+    padding: 15px;
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+    border: solid 1px #585858cc;
+    font-family: bold;
+    border-radius: 5px;
+  }
+  
+.maintext{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
