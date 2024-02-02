@@ -1,10 +1,10 @@
 import style from "../../../styles/form/alert.module.css"
-export default function TelefoneInvalidoAlerta(){
+export default function Alert({text}){
     return (
         <>
         <div className={style.container}>
             <h1 className={style.maintext}>
-                Número de telefone invalido! 
+                {text}
             </h1>
         </div>
 
