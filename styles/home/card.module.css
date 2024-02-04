@@ -1,7 +1,8 @@
 /* container */
 .containerMain{
-    height: 100vh;
+    height: auto;
     background-color: #ebebeb;  
+    padding: 35px;
 }
 
 .containerText{
@@ -13,14 +14,6 @@
 /* end container */
 
 /* texts  */
-.subtitleWeon{
-    font-family: extrabold;
-    color:#0063da; 
-    font-size: 1rem;
-    padding: 1rem;
-    justify-content: center;
-    display: flex;
-  }
 
 .title{
     font-size: 100px;

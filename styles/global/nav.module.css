@@ -64,7 +64,8 @@
 .activeLink{
     color: #0063da;
 }
-  
+
+
 
 @media (max-width: 480px) {
     
@@ -76,4 +77,11 @@
     .weonBtn {
         margin-right: 0rem;
     }
+
+    .logo {
+        width: 70px; 
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+      }
   }
