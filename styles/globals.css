@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -37,4 +35,36 @@ a {
 @font-face {
   font-family: sfpro;
   src: url(../public/Font/SF-Pro-Display-Semibold.otf);
+}
+
+.body {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-family: bold;
+}
+
+.bluedot{
+  color: #0063da;
+  font-family: sfpro;
+}
+
+.containerMain{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.maintextAlert{
+  color: #c8c8c8;
+}
+
+@media (max-width:600px){
+  .maintextAlert{
+    padding: 15px;
+    font-size: 2.5rem;
+
+  }
 }
